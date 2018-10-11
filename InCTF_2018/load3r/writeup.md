@@ -1,6 +1,7 @@
 # load3r
 
-The Note about how to run the file was added after we solved the challenge. Since this was a fairly simple reverse challenge, we were able to solve it using only static analysis.
+The Note about how to run the file was added after we solved the challenge. Since this was a simple reverse challenge, we were able to solve it using only static analysis.
+
 ![alt text](https://raw.githubusercontent.com/happysox/CTF_Writeups/master/InCTF_2018/load3r/pics/load3r.png)
 
 We use `file` and see that we have gotten our hands on some kind of boot loader:
@@ -12,6 +13,8 @@ w2g1kS<c7me3keeuSMg1kSk%Se<=S3%/e/
 0100010011011101111111011010110101
 ```
 Our first thought is that the string probably holds the correct password and the bitstring is some kind of encryption key.
+
+### Reversing
 
 Now it's time to fire up a disassembler. We used IDA Pro and disassembled it in 16-bit mode.
 
@@ -27,7 +30,9 @@ We find BIOS interrupts for reading characters from the keyboard and writing to 
 3. Finally, the program compares our entered password with the stored encrypted password in reverse.
 ![alt text](https://raw.githubusercontent.com/happysox/CTF_Writeups/master/InCTF_2018/load3r/pics/ida3.png)
 
-So the solution to this is taking the stored encrypted password and doing the whole process backwards:
+### Solution
+
+We take the stored encrypted password and doing the whole process backwards:
 
 ```python
 def decrypt(cipher, key):
