@@ -49,7 +49,7 @@ After looking at the binary in IDA for a while, we notice a bunch of
 ### Analysing the control flow
 We build a png out of the generated `cfg.dot` file.
 
-<a href="url"><img src="pics/cfg.png" align="" height="400" width="40" ></a>
+<a href="pics/cfg.png"><img src="pics/cfg.png" align="" height="400" width="40" ></a>
 
 
 Seeing this, suspect that the binary compares the input one or a few characters at a time. 
