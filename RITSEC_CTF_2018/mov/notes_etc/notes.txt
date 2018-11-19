@@ -1,0 +1,153 @@
+b *0x804be37 ->  //remove
+	G -> "_"
+	M -> "_"   6 JUMPS för att deatha utan M
+	R -> "_"   9
+	V -> "_"   12
+	Y -> "_"   15
+	0x0804C1EF: jnz 804C6E2 //remove
+		b *0x804c1ef -> DEATH
+
+b *0x804c6e2 -> //remove
+
+b *0x804ce7a -> //remove 
+	A -> "M"
+b *0x804d136 //remove
+
+b *0x804d629 -> //remove
+	H -> "M" //Trorrrr viii
+	H 
+
+b *0x804da64 -> Här guidar vi till 57
+	Leder till DEATH
+
+b *0x804df57->
+	D -> "e"
+
+b *0x804e26a //remove
+	Leder till death om D != e
+
+b *0x804e75d -> 
+	C -> "k"
+
+b *0x804ea70 //remove
+	Leder till death om C != k
+
+b *0x804ef63 //remove	
+
+b *0x804f16c LOOP //remove
+	E -> "y"
+	F -> "s"
+	
+	
+	b *0x804f667 //remove
+		kanske cmp DEATH
+
+b *0x804fb5a END LOOP //remove
+	
+b *0x80500b1 //remove
+	L och N ska vara samma? 
+	
+b *0x80504aa //remove
+	N och Q ska vara samma
+
+b *0x805082e //remove 
+	jmp till Death
+
+b *0x8050c5a //remove
+	N -> t
+	cmp till DEATH
+
+b *0x8050efa //remove
+	DEATH
+
+b *0x80513e7 //remove
+	I -> "r"
+
+b *0x8051747 //remove
+	Jmp till death
+	
+b *0x8051c3a //remove
+	? -> "e"
+	
+b *0x8051f4d //remove
+	cmp till DEath
+
+b *0x8052440
+	@ K W X Z //Kanske???    //M var med
+
+	Ändrade till A -> nu syntes L \0xb
+	
+	Z syns och M
+	
+	4d + A = 
+
+b *0x8052a00 //remove GUIDAR
+	Cmp till Death
+
+b *0x8052ef3 //remove
+	O -> "b" ????
+	Ska jumpa
+
+b *0x8053375 //remove
+	Jmp
+
+b *0x8053868 //remove
+	P och H ska vara samma
+	// O och L och M ???????????
+
+b *0x8053c4a //remove
+	JMP
+
+b *0x805413d //remove
+	S -> "b"
+	
+	P och S ska vara samma och "b"
+
+	Allt ska vara lilla b TOPKEK
+
+b *0x8054461 //remove
+	Jmp till death
+
+	67? T -> "a"
+
+b *0x805478b //remove
+	Jmp till death
+	U -> "d"	
+
+b *0x8054a3a //remove
+	jmp till death
+
+b *0x8054cda //remove
+	DEATH
+	
+b *0x80551c7 //remove
+	W -> : 
+
+b *0x80554eb //remove
+	Jmp till death
+	X -> )
+
+b *0x8055815 //remove
+	JMP till death
+
+b *0x8055ab5 //remove
+	d ) M
+
+b *0x8055fa2 //remove
+	Z -> ! 
+	"9" ?? 
+	M 
+
+b *0x80562b5
+	Jmp
+b *0x80567a8
+	e g
+	5
+	!
+	M
+	x
+	
+
+
+
+	
