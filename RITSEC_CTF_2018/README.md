@@ -15,9 +15,9 @@ We placed at #7/952.
 |7              |IndianTuesday  |4886|
 
 ### Writeups
-* [mov](https://github.com/happysox/CTF_Writeups/tree/master/RITSEC_CTF_2018/mov) - solved together with [ludvigknutsmark](https://github.com/ludvigknutsmark)
-* [Yet Another HR Management Framework](https://github.com/happysox/CTF_Writeups/tree/master/RITSEC_CTF_2018/yet_another_hr)
-* [ReverseMe](reverseme/)
+* [mov](mov/) - solved together with [ludvigknutsmark](https://github.com/ludvigknutsmark)
+* [Yet Another HR Management Framework](yet_another_hr/)
+* [ReverseMe](reverseme/) - solved together with [ludvigknutsmark](https://github.com/ludvigknutsmark)
 
 **And some writeups from my teammates:**
 
