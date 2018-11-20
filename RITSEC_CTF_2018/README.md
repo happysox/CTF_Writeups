@@ -22,11 +22,9 @@ We placed at #7/952.
 **And some writeups from my teammates:**
 
 * [ludvigknutsmark](https://github.com/ludvigknutsmark):
-
     * [Who drew on my program?](https://github.com/ludvigknutsmark/CTF_WRITEUPS/blob/master/Ritsec2018/who_drew_on_my_program%3F/aesWriteup.md) 
     * [Nobody uses the eggplant emoji](https://github.com/ludvigknutsmark/CTF_WRITEUPS/blob/master/Ritsec2018/nobody_uses_the_eggplant_emoji/writeup.md) 
 * [flawwan](https://github.com/flawwan/):
-
     * [Archivr](https://github.com/flawwan/CTF-Writeups/blob/master/ritsec/archivr/writeup.md)
     * [Bucket 'o cash](https://github.com/flawwan/CTF-Writeups/blob/master/ritsec/bucketofcash/writeup.md) 
     * [Crazy Train](https://github.com/flawwan/CTF-Writeups/blob/master/ritsec/crazytrain/writeup.md)

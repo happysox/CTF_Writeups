@@ -1,6 +1,6 @@
 # ReverseMe 
 
-*Writeup by [Ludvig Knutsmark](https://github.com/ludvigknutsmark) and [Johan Näslund](https://github.com/happysox)*
+*Co-author: [ludvigknutsmark](https://github.com/ludvigknutsmark)*
 
 ![](pics/reverseme.png)
 
