@@ -22,6 +22,7 @@ Placement: #7/952.
 
 * [henriknero](https://github.com/henriknero):
     * [Freeze!](https://github.com/henriknero/writeups/tree/master/freeze) : *reverse*
+    * [From our friends at nexthop!](https://github.com/henriknero/writeups/tree/master/nexthop) : *forensics*
 * [ludvigknutsmark](https://github.com/ludvigknutsmark):
     * [Who drew on my program?](https://github.com/ludvigknutsmark/CTF_WRITEUPS/blob/master/Ritsec2018/who_drew_on_my_program%3F/aesWriteup.md) : *crypto*
     * [Nobody uses the eggplant emoji](https://github.com/ludvigknutsmark/CTF_WRITEUPS/blob/master/Ritsec2018/nobody_uses_the_eggplant_emoji/writeup.md) : *crypto*
