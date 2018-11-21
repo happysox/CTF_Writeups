@@ -1,5 +1,6 @@
 # ReverseMe 
 
+*Solved together with: [ludvigknutsmark](https://github.com/ludvigknutsmark)*<br>
 *Co-author: [ludvigknutsmark](https://github.com/ludvigknutsmark)*
 
 ![](pics/reverseme.png)

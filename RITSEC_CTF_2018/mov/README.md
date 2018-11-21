@@ -1,5 +1,7 @@
 # mov (Original title: https://www.youtube.com/watch?v=cEuU64Zt4B0)
 
+*Solved together with: [ludvigknutsmark](https://github.com/ludvigknutsmark)*<br>
+
 ![](pics/mov.png)
 
 Solving this challenge was very tedious but also fun. In hindsight we wish we used a bit more scripting, since we ended up doing a lot of manual work while debugging.
