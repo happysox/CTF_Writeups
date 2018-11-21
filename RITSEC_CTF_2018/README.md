@@ -14,7 +14,7 @@ Placement: #7/952.
 
 ### Writeups
 * [Yet Another HR Management Framework](yet_another_hr/) : *pwn*
-* [Gimme sum fud](yet_another_hr/) : *pwn*
+* [Gimme sum fud](gimme_sum_fud/) : *pwn*
 * [mov](mov/) : *reverse*
 * [ReverseMe](reverseme/) : *reverse*
 
