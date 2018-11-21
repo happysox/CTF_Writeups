@@ -18,7 +18,7 @@ Placement: #7/952.
 * [mov](mov/) : *reverse*
 * [ReverseMe](reverseme/) : *reverse*
 
-### Team mates writeups
+### Teammate writeups
 
 * [henriknero](https://github.com/henriknero):
     * [Freeze!](https://github.com/henriknero/writeups/tree/master/freeze) : *reverse*

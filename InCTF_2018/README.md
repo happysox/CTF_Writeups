@@ -5,7 +5,7 @@ Placement: #15/306.
 ### Writeups
 * [load3r](load3r/) : *reverse*
 
-### Team mates writeups
+### Teammate writeups
 
 * [henriknero](https://github.com/henriknero):
     * [Decoy](https://github.com/henriknero/writeups/tree/master/decoy) : *reverse*
