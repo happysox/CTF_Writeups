@@ -17,7 +17,7 @@ $ checksec pwn2
     FORTIFY:  Enabled
 ```
 ```
-./libc.so.6 
+$ ./libc.so.6 
 GNU C Library (Ubuntu GLIBC 2.23-0ubuntu10) ... <omitted>
 ```
 
@@ -116,7 +116,7 @@ with context.quiet:
     p.interactive()
 ```
 ```
-./exploit.py
+$ ./exploit.py
 gdb-peda$ find CCCC
 Searching for 'CCCC' in: None ranges
 Found 1 results, display max 1 items:
