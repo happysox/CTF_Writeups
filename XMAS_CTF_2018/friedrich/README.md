@@ -191,7 +191,7 @@ Where `A` is a square matrix of our 1296 scalars and `b` is a vector with our 36
 
 ### Solution
 
-I used `octave` (file: `gauss_it.m`) to solve the equation and parsed the resulting values with python (file: `decode_flag.py`).
+I used `octave` (file: `gauss_it.m`) to solve the equation and parsed the resulting values with python.
 
 ```sh
 X-MAS{G4u5s_w4s_n1c3_th1s_Chri5tma5}
