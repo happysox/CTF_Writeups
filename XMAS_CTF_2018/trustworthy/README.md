@@ -77,6 +77,8 @@ ff585820204f20202020b0 //client sends:
 etc...
 ```
 
+### Solution
+
 So I wrote a python script to cheat. The server seemed to have *a little* validation against cheating, as we couldn't straight up send a 3-in-a-row board. Sending a board with 3 X's in a row means we also have to send 2 O's in reasonable places:
 
 ```python
