@@ -2,7 +2,7 @@
 
 Placement: #15/570
 ### Writeups
-* [babyheap](friedrich/) : *pwn*
+* [babyheap](babyheap/) : *pwn*
 
 **Also check out my team mates' writeups:**
 * [flawwan](https://github.com/flawwan/CTF-Writeups/tree/master/Fireshell)
