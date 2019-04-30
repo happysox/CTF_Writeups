@@ -1,6 +1,6 @@
 # Potato
 
-This challenge was made by my good friend [flawwan](https://github.com/flawwan/) and me. Here's how we thought this challenge should be solved. 
+This challenge was made by my good friend [flawwan](https://github.com/flawwan/) and me. Here's how we thought this challenge should be solved. Shoutout to `D Team` for being the only team who solved it!
 
 ![](pics/potato.png)
 
