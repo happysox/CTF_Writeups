@@ -1,0 +1,4 @@
+echo 'Welcome to super secure router alpha 0.01'
+#Provide a neat motd for the user.
+
+#TODO Add some security checks. This script should be secure. i dunno
