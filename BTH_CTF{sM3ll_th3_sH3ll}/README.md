@@ -2,8 +2,6 @@
 
 Placement: Organizer
 ### Writeups
-* [Potato](potato/) : *web/crypto*
+* [Potato](potato/) : *web,crypto*
 
-**Also, check out my team mates' writeups:**
-* [flawwan](https://github.com/flawwan/CTF-Writeups/tree/master/Fireshell)
-    * [babycryptoweb](https://github.com/flawwan/CTF-Writeups/blob/master/Fireshell/babycryptoweb/babycryptoweb.md) : *misc*
+**Also, check out my team mates' and other competitors' writeups on [ctftime](https://ctftime.org/event/761/tasks/) !**
