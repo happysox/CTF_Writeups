@@ -2,4 +2,4 @@
 
 Placement: #17/283
 ### Writeups
-* [blakflag](flakflag/) : *pwn*
+* [blakflag](blakflag/) : *pwn*
