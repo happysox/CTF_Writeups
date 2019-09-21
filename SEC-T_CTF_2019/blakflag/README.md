@@ -158,15 +158,15 @@ We notice some things here:
 * `write` isn't blacklisted.
 
 ### ROP/recon
-Recall that rdi, rsi, rdx, r10, ... are used for syscalls. We find some very neat gadgets:
+Recall that `rdi`, `rsi`, `rdx`, `r10`, ... are used for passing parametersto syscalls, and that `rax` is used to select which syscall. We find some very neat gadgets:
 ```
 pop r10 ; pop rdx ; pop rdi ; pop rsi ; ret <- neat!
 xor rax, rax ; mov al, 1 ; syscall ; ret <- sys_write
 ```
 
-So here we start googling around on how to read a file despite `seccomp` blacklists. Around the same time we also realize that **the binary never closes the flag file descriptor**. We stumble upon [this page](https://github.com/unixist/seccomp-bypass) and learn that we can use `sys_sendfile` to send data from one file descriptor to another.
+So here we start googling around on how to read a file despite `seccomp` blacklists. Around the same time we also realize that **the binary never closes the flag file descriptor**. We stumble upon [this page](https://github.com/unixist/seccomp-bypass) and learn that we can use `sys_sendfile` (`rax=0x28`) to send data from one file descriptor to another.
 
-But we have no gadget to set `rax` to `0x28` reliably... *Or do we?*
+But we have no way to set `rax` to `0x28`  reliably... *Or do we?*
 
 ### Solution
 After sitting in frustration for a while we remember a common behaviour from `read/write` functions: **The amount of bytes read/written are stored in the return value (`rax`)!** 
