@@ -3,6 +3,7 @@ Solutions to CTF - (Capture the Flag Computer Security Competitions) - challenge
 
 | Event                                         | Team        | Placement |
 |-----------------------------------------------|:-----------:|-----------|
+|[watevrCTF 2019](watevr_CTF_2019/)|IndianTuesday| #14/692|
 |[SEC-T CTF 2019](SEC-T_CTF_2019/)|IndianTuesday| #17/283|
 |[DEF CON CTF Qualifier 2019](Defcon_CTF_2019/)|IndianTuesday| #133/1262|
 |[BTH_CTF{sM3ll_th3_sH3ll}](BTH_CTF{sM3ll_th3_sH3ll}/)|IndianTuesday| Organizer    |
